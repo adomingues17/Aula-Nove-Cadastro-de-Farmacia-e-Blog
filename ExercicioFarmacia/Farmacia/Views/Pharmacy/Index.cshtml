@@ -1,0 +1,43 @@
+﻿@model List<Pharmacy>
+
+<div class="container">
+    <div class="row-pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Lista de Farmacias</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Pharmacy" asp-action="Create" class="btn btn-primary">
+                <i class="bg-info bi-plus-circle">Cadastrar Farmácia</i>
+            </a>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped">        
+        <thead>
+            <th>Código de Cadastro</th>
+            <th>Razão Social</th>
+            <th>Endereço</th>
+            <th>Horário de atendimento</th>            
+        </thead>
+
+        <tbody class="table table-bordered table-striped">
+            @foreach(var item in Model.OrderBy(u => u.Id))
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Endereco</td>
+                    <td>@item.Horario</td>
+                    <td>
+                        <a asp-controller="Pharmacy" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary mx-2">
+                            <i class="bg-info bi-pencil-square">Editar Registro</i>
+                        </a>
+                        <a asp-controller="Pharmacy" asp-action="Delete" asp-route-id="@item.Id" class="btn-danger mx-2">
+                            <i class="bi bi-trash-fill">Deletar Registro</i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>   
+    </table>
+</div>

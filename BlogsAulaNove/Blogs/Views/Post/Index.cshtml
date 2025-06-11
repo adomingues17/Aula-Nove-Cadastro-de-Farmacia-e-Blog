@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Blogs.Models.Post>
+
+@{
+    ViewData["Title"] = "Posts";
+}
+
+<h2>Lista de Posts</h2>
+
+<a asp-action="Create">Novo Post</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Data</th>
+            <th>Texto</th>
+            <th>Imagem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.DataCriacao.ToShortDateString()</td>
+                <td>@(string.IsNullOrEmpty(item.Texto) ? "" : item.Texto.Substring(0, Math.Min(50, item.Texto.Length)) + "...")</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImagemUrl))
+                    {
+                        <img src="@item.ImagemUrl" width="100" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

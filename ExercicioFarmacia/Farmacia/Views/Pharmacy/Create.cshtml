@@ -1,0 +1,36 @@
+﻿@model Pharmacy
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">
+                Cadastrar Farmácia
+            </h2>
+            <div asp-validation-summary="All"></div>
+
+            <div class="mb-3">
+                <label asp-for="Nome" class="p-0"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Endereco" class="p-0"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Horario" class="p-0"></label>
+                <input asp-for="Horario" class="form-control"/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-outline-primary form-control">Cadastrar</button>
+                </div>
+                <div class="col-md-6">
+                    <a asp-controller="Pharmacy" asp-action="Index" class="btn btn-outline-secondary">Voltar</a>
+                </div>
+            </div>
+        </div>       
+    </div>
+</form>

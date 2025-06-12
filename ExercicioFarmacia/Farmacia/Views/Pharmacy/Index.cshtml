@@ -5,19 +5,21 @@
         <div class="col-6">
             <h2 class="text-primary">Lista de Farmacias</h2>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-12 text-end">
             <a asp-controller="Pharmacy" asp-action="Create" class="btn btn-primary">
-                <i class="bg-info bi-plus-circle">Cadastrar Farmácia</i>
+                <i class="bi bi-plus-circle">Cadastrar Farmácia</i>
             </a>
         </div>
     </div>
 
     <table class="table table-bordered table-striped">        
         <thead>
-            <th>Código de Cadastro</th>
-            <th>Razão Social</th>
-            <th>Endereço</th>
-            <th>Horário de atendimento</th>            
+            <tr>
+                <th>Código de Cadastro</th>
+                <th>Razão Social</th>
+                <th>Endereço</th>
+                <th>Horário de atendimento</th>  
+            </tr>
         </thead>
 
         <tbody class="table table-bordered table-striped">

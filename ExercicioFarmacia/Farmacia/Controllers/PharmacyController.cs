@@ -26,13 +26,14 @@ namespace Farmacia.Controllers
         {
             if (obj.Nome == obj.Id.ToString())
             {
-                ModelState.AddModelError("name", "Não podem ser iguais.");
+                ModelState.AddModelError("Nome", "Não podem ser iguais.");
             }
 
             if (ModelState.IsValid)
             {
                 _db.Pharmacies.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Cadastro realizado com sucesso.";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -58,6 +59,7 @@ namespace Farmacia.Controllers
             {
                 _db.Pharmacies.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Cadastro atualizado com sucesso.";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -87,6 +89,7 @@ namespace Farmacia.Controllers
             }
             _db.Pharmacies.Remove(obj);
             _db.SaveChanges();
+            TempData["error"] = "Registro excluido com sucesso.";
             return RedirectToAction("Index");
         }
     }

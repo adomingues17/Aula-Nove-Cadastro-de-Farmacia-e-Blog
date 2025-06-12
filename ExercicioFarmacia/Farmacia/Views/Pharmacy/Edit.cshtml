@@ -10,10 +10,10 @@
             @foreach(var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
             {
                 <div class="text-danger">
-                    ❗ @modelError.ErrorMessage
+                    ! @modelError.ErrorMessage
                 </div>
             }
-
+            <!--❗-->
             <div class="mb-3">
                 <label asp-for="Nome" class="p-0"></label>
                 <input asp-for="Nome" class="form-control" />

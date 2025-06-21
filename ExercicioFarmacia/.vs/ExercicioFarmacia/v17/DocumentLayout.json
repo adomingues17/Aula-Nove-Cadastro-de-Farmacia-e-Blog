@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\views\\pharmacy\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\views\\pharmacy\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Views\\Pharmacy\\Create.cshtml",
+              "RelativeDocumentMoniker": "Farmacia\\Views\\Pharmacy\\Create.cshtml",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Views\\Pharmacy\\Create.cshtml",
+              "RelativeToolTip": "Farmacia\\Views\\Pharmacy\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:03:39.18Z",
+              "EditorCaption": ""
             }
           ]
         }

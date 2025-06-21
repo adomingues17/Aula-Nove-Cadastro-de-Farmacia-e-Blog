@@ -56,12 +56,12 @@ public class PharmacyController : Controller
             return NotFound();
         }
 
-        Pharmacy categoryFromDb = _db.Pharmacies.Find(id);
-        if (categoryFromDb == null)
+        Pharmacy pharmacyFromDb = _db.Pharmacies.Find(id);
+        if (pharmacyFromDb == null)
         {
             return NotFound();
         }
-        return View(categoryFromDb);
+        return View(pharmacyFromDb);
     }
     [HttpPost]
     public IActionResult Edit(Pharmacy obj)
@@ -82,13 +82,13 @@ public class PharmacyController : Controller
             return NotFound();
         }
 
-        Pharmacy categoryFromDb = _db.Pharmacies.Find(id);
+        Pharmacy pharmacyFromDb = _db.Pharmacies.Find(id);
 
-        if (categoryFromDb == null)
+        if (pharmacyFromDb == null)
         {
             return NotFound();
         }
-        return View(categoryFromDb);
+        return View(pharmacyFromDb);
     }
     [HttpPost, ActionName("Delete")]
     public IActionResult DeletePost(int? id)

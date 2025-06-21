@@ -165,3 +165,4 @@ D:\impacta\aspNet\IaulaNove\BlogsAulaNove\Blogs\obj\Debug\net8.0\refint\Blogs.dl
 D:\impacta\aspNet\IaulaNove\BlogsAulaNove\Blogs\obj\Debug\net8.0\Blogs.pdb
 D:\impacta\aspNet\IaulaNove\BlogsAulaNove\Blogs\obj\Debug\net8.0\Blogs.genruntimeconfig.cache
 D:\impacta\aspNet\IaulaNove\BlogsAulaNove\Blogs\obj\Debug\net8.0\ref\Blogs.dll
+D:\impacta\aspNet\IaulaNove\BlogsAulaNove\Blogs\obj\Debug\net8.0\Blogs.sourcelink.json

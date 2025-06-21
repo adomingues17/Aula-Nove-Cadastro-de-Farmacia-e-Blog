@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\impacta\\aspNet\\IaulaNove\\BlogsAulaNove\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31C7547E-DE0F-4879-B98C-E9A764AA4C3F}|Blogs\\Blogs.csproj|d:\\impacta\\aspnet\\iaulanove\\blogsaulanove\\blogs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C7547E-DE0F-4879-B98C-E9A764AA4C3F}|Blogs\\Blogs.csproj|solutionrelative:blogs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\BlogsAulaNove\\Blogs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Blogs\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\BlogsAulaNove\\Blogs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Blogs\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABwAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T02:39:23.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

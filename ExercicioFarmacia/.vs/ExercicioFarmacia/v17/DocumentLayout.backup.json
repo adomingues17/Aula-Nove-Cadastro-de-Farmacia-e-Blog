@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\views\\pharmacy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\views\\pharmacy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\models\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\models\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Farmacia\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Farmacia\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Views\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "Farmacia\\Views\\Shared\\_Notification.cshtml",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Views\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "Farmacia\\Views\\Shared\\_Notification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T01:18:00.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Views\\Pharmacy\\Index.cshtml",
+              "RelativeDocumentMoniker": "Farmacia\\Views\\Pharmacy\\Index.cshtml",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Views\\Pharmacy\\Index.cshtml",
+              "RelativeToolTip": "Farmacia\\Views\\Pharmacy\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T01:04:47.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pharmacy.cs",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Models\\Pharmacy.cs",
+              "RelativeDocumentMoniker": "Farmacia\\Models\\Pharmacy.cs",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Models\\Pharmacy.cs",
+              "RelativeToolTip": "Farmacia\\Models\\Pharmacy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T00:40:09.556Z",
+              "WhenOpened": "2025-06-21T00:55:17.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Farmacia\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Farmacia\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T00:53:53.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PharmacyController.cs",
+              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Controllers\\PharmacyController.cs",
+              "RelativeDocumentMoniker": "Farmacia\\Controllers\\PharmacyController.cs",
+              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Controllers\\PharmacyController.cs",
+              "RelativeToolTip": "Farmacia\\Controllers\\PharmacyController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T00:40:57.667Z",
               "EditorCaption": ""
             }
           ]

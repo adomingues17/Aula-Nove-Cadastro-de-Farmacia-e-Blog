@@ -12,10 +12,26 @@ public class PharmacyController : Controller
     {
         _db = db;
     }
-    public IActionResult Index()
+    public IActionResult Index(string busca, int pagina = 1, int tamanhoPagina = 4)
     {
-        var objCategoryList = _db.Pharmacies.ToList();
-        return View(objCategoryList);
+        var query = _db.Pharmacies.AsQueryable();
+
+        if (!string.IsNullOrEmpty(busca))        
+            query = query.Where(c => c.Nome.Contains(busca));
+
+        int totalRegistros = query.Count();
+        var farmacias = query
+            .OrderBy(c => c.Nome)
+            .Skip((pagina - 1)*tamanhoPagina)
+            .Take(tamanhoPagina)
+            .ToList();
+
+        ViewBag.TotalPaginas = (int)Math.Ceiling(totalRegistros / (double)tamanhoPagina);
+        ViewBag.PaginaAtual = pagina;
+        ViewBag.Busca = busca;
+
+        return View(farmacias);
+      
     }
     public IActionResult Create()
     {
@@ -24,11 +40,6 @@ public class PharmacyController : Controller
     [HttpPost]
     public IActionResult Create(Pharmacy obj)
     {
-        if (obj.Nome == obj.Id.ToString())
-        {
-            ModelState.AddModelError("Nome", "Não podem ser iguais.");
-        }
-
         if (ModelState.IsValid)
         {
             _db.Pharmacies.Add(obj);

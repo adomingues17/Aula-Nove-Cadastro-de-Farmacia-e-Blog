@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|d:\\impacta\\aspnet\\iaulanove\\exerciciofarmacia\\farmacia\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB9CE11A-0A5B-41BF-A447-61E46053C134}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\controllers\\pharmacycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PharmacyController.cs",
-              "DocumentMoniker": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Controllers\\PharmacyController.cs",
-              "RelativeDocumentMoniker": "Farmacia\\Controllers\\PharmacyController.cs",
-              "ToolTip": "D:\\impacta\\aspNet\\IaulaNove\\ExercicioFarmacia\\Farmacia\\Controllers\\PharmacyController.cs",
-              "RelativeToolTip": "Farmacia\\Controllers\\PharmacyController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T00:40:57.667Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
